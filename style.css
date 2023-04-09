@@ -12,6 +12,7 @@ height: auto;
 }
 
 .left-panel, .right-panel {
+     margin-top: 3cm;
 flex: 1;
 display: block;
 justify-content: center;
@@ -21,7 +22,7 @@ text-align: center;
 }
 
 .right-panel {
-    margin-top: 3cm;
+    margin-top:6cm;
 align-items: center;
 }
 
