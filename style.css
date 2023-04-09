@@ -12,18 +12,18 @@ height: auto;
 }
 
 .left-panel, .right-panel {
-     margin-top: 3cm;
+    margin-top:3cm;
 flex: 1;
 display: block;
 justify-content: center;
 height: auto;
 color: #fff;
 text-align: center;
+align-items: center;
 }
 
 .right-panel {
-    margin-top:6cm;
-align-items: center;
+    margin-top: 6cm;
 }
 
 .in-left, .in-right {
