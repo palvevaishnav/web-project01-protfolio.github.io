@@ -1,0 +1,163 @@
+/* My code */
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.left-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height:auto;
+    /* background-color: rgb(0, 0, 0); */
+    color: rgb(219, 211, 211);
+    text-align: center;
+}
+
+.right-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* width: 50%; */
+    /* background-color: rgb(0, 0, 0); */
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.in-left {
+    margin-top: 2cm;
+    display: block;
+}
+
+.in-right {
+    margin-top: 2cm;
+    display: block;
+}
+
+.in-right h1 {
+    color: orange;
+}
+
+.in-left h1 {
+    color: orange;
+}
+#sasuke {
+    height: 300px;
+    justify-content: center;
+    margin-right: 2cm;
+    margin-left: 2cm;
+    ;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+}
+
+.index {
+    display: flexbox;
+    flex-direction: row;
+    /* justify-content:center; */
+    /* align-items: center; */
+    color: rgb(255, 255, 255);
+    /* margin-top: 5cm; */
+}
+
+#ind{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.main-container {
+    position: relative;
+    width: 500px;
+}
+
+/*creating line for timeline*/
+.main-container::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    background-color: #ffffff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*Adjusting box of all content*/
+.text-wrapper {
+    padding: 10px 40px;
+    position: relative;
+    width: 55%;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.text-wrapper::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: .1px;
+    right: -10px;
+    background-color: #ffffff;
+    top: 15px;
+    border-radius: 80%;
+    z-index: 1;
+}
+
+/*for left events*/
+.left {
+    left: 0;
+}
+
+/*for right events*/
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left:-10px;
+}
+
+/*content box colour padding
+and radius for circular corner*/
+
+.content {
+    padding: 15px 15px 15px 17px;
+    background-color: #d3d0cd;
+    border-radius: 4px;
+}
+
+/*setting text property of event heading*/
+.content h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+/*setting text property of event content*/
+.content p {
+    color: #000000;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.indexjr{
+    margin-top:80px;
+}
