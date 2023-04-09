@@ -22,10 +22,11 @@ text-align: center;
 align-items: center;
 }
 
+/*
 .right-panel {
     margin-top: 6cm;
 }
-
+*/
 .in-left, .in-right {
 /* margin-top: 2cm; */
 display: block;
